@@ -1,20 +1,24 @@
-package com.devsuperior.dslist.entities;
+package com.devsuperior.dslist.dto;
+
+import com.devsuperior.dslist.entities.Game;
 
 public class GameMinDTO {
+    // |=======| ATRIBUTOS |=======|
     private Long id;
     private String title;
     private Integer year;
     private String imgUrl;
     private String shortDescription;
-    
-    public GameMinDTO() {}
 
-    public GameMinDTO(Game entity) {
-        id = entity.getId();
-        title = entity.getTitle();
-        year = entity.getYear();
-        imgUrl = entity.getImgUrl();
-        shortDescription = entity.getShortDescription();
+    public GameMinDTO() {
+    }
+
+    public GameMinDTO(Game entity){
+        this.id               = entity.getId();
+        this.title            = entity.getTitle();
+        this.year             = entity.getYear();
+        this.imgUrl           = entity.getImgUrl();
+        this.shortDescription = entity.getShortDescription();
     }
 
     public Long getId() {
@@ -36,6 +40,4 @@ public class GameMinDTO {
     public String getShortDescription() {
         return shortDescription;
     }
-    
-    
 }
