@@ -6,10 +6,12 @@ Este projeto é um backend que disponibiliza uma api para buscar uma lista de jo
 
 ## Tecnologias usadas
 
-- Java ![kisspng-java-programming-language-selenium-computer-softwa-july-2-16-halab-4-dev-5bf78387a7bb41 028192901542947719687](https://github.com/user-attachments/assets/907eef10-3993-457d-bbd1-4bd43dfa68d0)
-
+- Java 
 - Spring boot
 - JPA (Java Persistence API) / Hibernate (Framework para ORM)
 - Maven
 - Banco de dados PostgreSQL
 - Docker
+
+> [!TIP]
+> Na pasta resource tem arquivos aplication.properties com nomes diferentes, indicando perfis de teste __(application-test.properties)__, desenvolvimento __(application-dev.properties)__ e de produção __(application-prod.properties)__. Cada arquivo corresponte contém configurações para rodar o backend pra teste, desenvolvimento e produção e para isso basta ir no __application.properties__ e alterar "__spring.profiles.active=${APP_PROFILE:<perfil>}__" <perfil> para o perfil escolhido.  
