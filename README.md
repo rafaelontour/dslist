@@ -6,7 +6,7 @@ Este projeto é um backend que disponibiliza uma api para buscar uma lista de jo
 
 ## Tecnologias usadas
 
-- Java 
+- Java 21
 - Spring boot
 - JPA (Java Persistence API) / Hibernate (Framework para ORM)
 - Maven
@@ -14,4 +14,8 @@ Este projeto é um backend que disponibiliza uma api para buscar uma lista de jo
 - Docker
 
 > [!TIP]
-> Na pasta resource tem arquivos aplication.properties com nomes diferentes, indicando perfis de teste __(application-test.properties)__, desenvolvimento __(application-dev.properties)__ e de produção __(application-prod.properties)__. Cada arquivo corresponte contém configurações para rodar o backend pra teste, desenvolvimento e produção e para isso basta ir no __application.properties__ e alterar "__spring.profiles.active=${APP_PROFILE:perfil}__" colando o nome do perfil depois dois dois pontos. Ex: ...APP_PROFILE:test ou ...APP_PROFILE:dev  
+> Na pasta resource tem arquivos aplication.properties com nomes diferentes, indicando perfis de teste __(application-test.properties)__, desenvolvimento __(application-dev.properties)__ e de produção __(application-prod.properties)__. Cada arquivo correspondente contém configurações para rodar o backend pra teste, desenvolvimento e produção e para isso basta ir no __application.properties__ e alterar "__spring.profiles.active=${APP_PROFILE:perfil}__" colando o nome do perfil depois dois dois pontos. Ex: ...APP_PROFILE:test ou ...APP_PROFILE:dev
+
+## Modelo
+
+![image](https://github.com/user-attachments/assets/6fe273c6-c749-45df-8b39-29170c756cef)
