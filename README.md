@@ -14,4 +14,4 @@ Este projeto é um backend que disponibiliza uma api para buscar uma lista de jo
 - Docker
 
 > [!TIP]
-> Na pasta resource tem arquivos aplication.properties com nomes diferentes, indicando perfis de teste __(application-test.properties)__, desenvolvimento __(application-dev.properties)__ e de produção __(application-prod.properties)__. Cada arquivo corresponte contém configurações para rodar o backend pra teste, desenvolvimento e produção e para isso basta ir no __application.properties__ e alterar "__spring.profiles.active=${APP_PROFILE:<perfil>}__" <perfil> para o perfil escolhido.  
+> Na pasta resource tem arquivos aplication.properties com nomes diferentes, indicando perfis de teste __(application-test.properties)__, desenvolvimento __(application-dev.properties)__ e de produção __(application-prod.properties)__. Cada arquivo corresponte contém configurações para rodar o backend pra teste, desenvolvimento e produção e para isso basta ir no __application.properties__ e alterar "__spring.profiles.active=${APP_PROFILE:perfil}__" colando o nome do perfil depois dois dois pontos. Ex: ...APP_PROFILE:test ou ...APP_PROFILE:dev  
